@@ -7,7 +7,7 @@ import numpy as np
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
-u = np.linspace(0, 0.2 * np.pi, 100)
+u = np.linspace(0, 2 * np.pi, 100)
 v = np.linspace(0, np.pi, 100)
 
 x = 100 * np.outer(np.cos(u), np.sin(v))
