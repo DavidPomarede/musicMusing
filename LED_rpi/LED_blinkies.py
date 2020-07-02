@@ -26,7 +26,7 @@ def blinker1(whatTimer, whatColor):
 		sleep(whatTimer)
 
 
-white (cycle1 == True):
+while (cycle1 == True):
 
 	timeChoice = random.randint(0,9) * waitArray[random.randint(0,5)]
 	n = random.randint(0,4)
